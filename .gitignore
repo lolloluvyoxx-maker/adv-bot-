@@ -1,0 +1,33 @@
+# Secrets
+.env
+
+# Runtime databases (local state — see README for Railway Volume setup)
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+db/*.db
+db/*.json
+!db/_db.py
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.pytest_cache/
+
+# Virtual envs
+venv/
+env/
+.venv/
+
+# OS / editor cruft
+.DS_Store
+.idea/
+.vscode/
+
+# Logs
+*.log
