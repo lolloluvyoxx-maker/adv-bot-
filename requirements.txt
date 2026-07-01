@@ -10,6 +10,7 @@ wavelink>=2.0.0
 httpx
 numpy
 aiosqlite
+aiofiles
 gtts
 langdetect
 python-dotenv
@@ -21,3 +22,6 @@ colorama
 chess
 python-dateutil
 deep-translator==1.11.4
+pytz
+prodia
+typing_extensions
