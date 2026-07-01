@@ -23,5 +23,5 @@ chess
 python-dateutil
 deep-translator==1.11.4
 pytz
-prodia
+prodia.py
 typing_extensions
